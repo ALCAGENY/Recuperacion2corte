@@ -1,0 +1,91 @@
+.ContendorAcerdaD {
+  background-color: white;
+  width: 100%;
+  height: 37vh;
+  display: flex;
+  padding: 2% 0;
+  gap: 2%;
+}
+
+.Acercade {
+  background-color: rgb(243, 243, 243);
+  flex: 2;
+  height: 28vh;
+  padding: 2% 4%;
+}
+
+.Amigos {
+  background-color: rgb(243, 243, 243);
+  flex: 1;
+}
+
+.Dividirr {
+  display: flex;
+  gap: 20%;
+  padding: 0 5%;
+}
+
+.Texto1 {
+  padding: 1% 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+.Texto2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  padding: 1% 0;
+}
+
+.Texto3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Texto4 {
+  padding: 10% 6%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+.Perfiles {
+  padding: 4% 10%;
+}
+
+.Perfil1 {
+  background-color: white;
+  width: 100%;
+  padding: 2% 5%;
+  border-radius: 5px;
+  display: flex;
+  gap: 10%;
+}
+
+.Perfil2 {
+  background-color: white;
+  width: 100%;
+  padding: 2% 5%;
+  border-radius: 5px;
+  display: flex;
+  gap: 10%;
+}
+
+.Perfil1Fondo {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.TextoPer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+}
+.TextoPerr {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+}
+
+.Texos {
+  padding: 3% 0;
+}

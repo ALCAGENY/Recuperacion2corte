@@ -1,0 +1,19 @@
+#textos{
+    width: 260px;
+height: 17px;
+font-family: arial;
+font-size: 14px;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color:rgb(0, 0, 0);
+}
+#imagen{
+    width:270px;
+height: 200px;
+padding: 40 0 0 0;
+gap: 12px;
+border-radius: 4;
+border-image:fill 0 linear-gradient(rgba(255, 0, 0, 0.534),#ff0000) ;
+}

@@ -1,0 +1,64 @@
+#Conten {
+    display: flex;
+    justify-content: center;
+    background: rgba(217, 217, 217, 1);
+    margin-top: 1%;
+    height:100%;
+    width: 50%;
+    margin-left: 25%;
+    flex-direction: column; /* Agregado para establecer la dirección de la columna */
+  }
+  
+  .post_image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  #buscador {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+  }
+  
+  #input {
+    width: 80%;
+  }
+  
+  #check {
+    height: 30px;
+  }
+  
+  #butons{
+    height: 1%;
+    margin-top: 2%;
+    justify-content: flex-end;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    display: flex;
+  }
+  .custom-link {
+    margin-top: 10px; 
+  }
+  
+  #text-bus{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+  }
+
+  #opcion{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+  }
+
+  #filt{
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+    margin-top: 1%;
+  }

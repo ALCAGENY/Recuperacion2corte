@@ -1,0 +1,58 @@
+#conte {
+    position:absolute; 
+    right: 0; 
+    width: 20%; 
+    height: 250vh; 
+    background: rgba(217, 217, 217, 1);
+    margin-top: -26%;
+    margin-right: 1%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .post-content{
+    height: 9%;
+    width: 95%;
+  }
+#but{
+  display: flex;
+  justify-content: center;
+}
+#img-but {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  height: 290px;
+  justify-content: flex-end;
+  margin-bottom: 6%;
+}
+#but-sab{
+  margin-bottom: 10px;
+  margin-left: 20px;
+
+  
+}
+
+#profile-con {
+    background-image: linear-gradient(to top, rgb(172, 172, 172) 0%, rgba(0, 0, 0, 0) 100%), url('https://www.eysmunicipales.es/static/media/images/actualidad/los-parques-mejoran-nuestra-salud-pero-no-todas-las-personas-pueden-disfrutarlos-por-igual.jpg');
+    background-size:auto; 
+    background-position: center; 
+    height: 300px;
+    margin-bottom: 30px;
+    border-radius: 3%;
+}
+#profile-cons{
+  background-image: linear-gradient(to top, rgb(49, 49, 49) 10%, rgba(0, 0, 0, 0) 100%), url('https://img.freepik.com/foto-gratis/vista-espacio-trabajo-oficina-desordenado-computadora-personal_23-2150282048.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699401600&semt=ais');
+  background-size:auto; 
+  background-position: center; 
+  height: 300px;
+  margin-bottom: 30px;
+  border-radius: 3%;
+}
+#profile-const{
+  background-image: linear-gradient(to top, rgb(49, 49, 49) 10%, rgba(0, 0, 0, 0) 100%), url('https://cdn-3.expansion.mx/dims4/default/0bdef00/2147483647/strip/true/crop/6950x4633+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fcherry-brightspot.s3.amazonaws.com%2Fbb%2F1d%2F9fc472dc46afbf9a73af9d0d8d4f%2Fshutterstock-543482497.jpg');
+  background-size:auto; 
+  background-position: center; 
+  height: 300px;
+  margin-bottom: 30px;
+  border-radius: 3%;
+}

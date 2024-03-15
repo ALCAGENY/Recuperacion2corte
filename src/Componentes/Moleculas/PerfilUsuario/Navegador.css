@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Contenedor-Navegacion {
+  padding: 1% 1%;
+}
+
+.Navegacion {
+  display: flex;
+  align-items: center;
+  background-color: rgb(217, 217, 217);
+  height: 7vh;
+  width: 100%;
+}
+
+.Logo {
+  width: 11%;
+  padding: 1%;
+}
+
+.Contenedor-Botones {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+
+.Botones {
+  padding: 1% 1%; 
+  border: 2px solid rgb(197, 197, 197);
+}
+
+.Contenedor-Opciones {
+  display: flex;
+  gap: 5%;
+  margin-right: 3%;
+  margin-left: auto;
+}
+
+.Buscador {
+  height:2rem;
+  width: 30rem;
+  border: 2px solid rgb(197, 197, 197);
+  outline: none;
+}
+
+.Botoness{
+width: 55px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 2px solid rgb(197, 197, 197);
+padding: 5% 5%;
+
+}
+
+.ConfiguracionIcon{
+  width: 50%
+}

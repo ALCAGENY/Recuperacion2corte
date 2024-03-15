@@ -1,0 +1,58 @@
+    #header {
+        background-color: #D9D9D9; /* Color de fondo gris */
+        width: 100%;
+    }
+
+    #header .container {
+        display: flex;
+        justify-content:space-evenly; 
+        align-items: center;
+        width: 100%;
+    }
+    
+
+    #header .global-search {
+        width: 50%;
+        max-width: 350px;
+        display: flex;
+        margin-right: 1%;
+    }
+
+    .global-search input {
+        height: 20px;
+    }
+
+    .global-menu {
+        padding: 10px;
+        margin: 10px;
+    }
+    .opcion {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end; /* Alinea los elementos a la derecha */
+    }
+    .opcion nav {
+        display: flex;
+        gap: 10px;
+        
+    }
+
+    .opcion nav > * {
+        flex-shrink: 0; /* Evita que los elementos se contraigan más allá de su tamaño natural */
+    }
+
+    @media only screen and (max-width: 768px) {
+        #header .global-search {
+            width: 200px; /* Reduces the width of the search input for smaller screens */
+        }
+
+        .global-menu {
+            display: none; /* Hides the global menu on smaller screens */
+        }
+
+        .opcion nav {
+            margin-left: 30px;
+             /* Cambia la dirección de los elementos a columnas en pantallas más pequeñas */
+            align-items: flex-start; /* Alinea los elementos a la izquierda en pantallas más pequeñas */
+        }
+    }

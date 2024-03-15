@@ -1,0 +1,40 @@
+#cont {
+    height: 350px;
+    width: 21%;
+    margin-left: 2%;
+    display: flex;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 4%;
+    justify-content: center;
+    background: rgba(217, 217, 217, 1);
+    margin-top: -195px;
+
+  }
+  
+  #post_divider {
+    text-align:left; /* Esto alinea el contenido horizontalmente */
+  }
+  #perf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160px;
+    justify-content: end;
+    margin-bottom: 6%;
+  }
+  .profile-container {
+    background-image: url('https://www.eysmunicipales.es/static/media/images/actualidad/los-parques-mejoran-nuestra-salud-pero-no-todas-las-personas-pueden-disfrutarlos-por-igual.jpg');
+    background-size: cover; 
+    background-position: center; 
+    height: 101px;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 4%;
+}
+
+.post-content-wrapper {
+  margin-top: 50px;
+}
+#but{
+  display: flex;
+  justify-content: center;
+}
