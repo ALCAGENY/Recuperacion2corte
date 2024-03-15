@@ -10,8 +10,9 @@ function App() {
     <Router>
       <Header key="header"></Header>
       <Siderbar key="Sidebar"></Siderbar>
+      <Feed></Feed>
       <Routes>
-        <Route exact path="/" element={<Feed key="feed" />} />
+      
         <Route exact path='/Pefil' element={<ContendorPerfil key={"ContendorPerfil"}/>}/>
       </Routes>
     </Router>
